@@ -7,7 +7,7 @@
 
 function setup()
     displayMode(STANDARD)
-    --displayMode(FULLSCREEN)
+    displayMode(FULLSCREEN)
     
     parameter("CamHeight", 0, 50, 5)
     parameter("FieldOfView", 10, 120, 80)

@@ -36,6 +36,7 @@ function clampAbs(x, maxAbs)
 end
 
 function clampLen(vec, maxLen)
+    if(vec == vec2(0, 0)) then return vec end
     return vec:normalize() * math.min(vec:len(), maxLen)
 end
 
